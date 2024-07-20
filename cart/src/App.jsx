@@ -15,7 +15,6 @@ import CartContent from "./CartContent";
 
 const App = () => (
   <div className="text-3xl mx-auto max-w-6xl">
-    <Header />
     <SafeComponent>
       <Suspense fallback={<div>Loading data...</div>}>
         <Header />
